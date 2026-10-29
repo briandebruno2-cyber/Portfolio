@@ -19,6 +19,7 @@ This site introduces me, my skills, and the projects I'm working on. I'm a 2nd-y
 ## 🛠 Built With
 
 - HTML5
+- java script
 - CSS3 (Flexbox and Grid)
 - GitHub Pages for hosting
 
