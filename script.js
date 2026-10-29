@@ -1,4 +1,3 @@
-// ===== 1. Select elements from the page (DOM selection) =====
 const menuToggle = document.getElementById("menuToggle");
 const navLinks = document.getElementById("navLinks");
 const greeting = document.getElementById("greeting");
@@ -9,7 +8,7 @@ const yearSpan = document.getElementById("year");
 const form = document.getElementById("contactForm");
 const formStatus = document.getElementById("formStatus");
 
-// ===== 2. Interactive navigation (hamburger menu) =====
+
 function setMenu(open) {
   navLinks.classList.toggle("open", open);
   menuToggle.setAttribute("aria-expanded", String(open));
@@ -29,14 +28,14 @@ navLinks.querySelectorAll("a").forEach(function (link) {
   });
 });
 
-// Reset the menu if the window grows back to desktop size
+
 window.addEventListener("resize", function () {
   if (window.innerWidth > 768) {
     setMenu(false);
   }
 });
 
-// ===== 3. Dynamic greeting based on the time of day =====
+
 function getGreeting() {
   const hour = new Date().getHours();
   if (hour < 12) {
@@ -51,7 +50,7 @@ function getGreeting() {
 greeting.textContent =
   getGreeting() + " I'm Brian Koech, an IT student at Africa International University.";
 
-// ===== 4. Dynamic content button (fun facts) =====
+
 const facts = [
   "I'm studying Information Technology at Africa International University.",
   "I wrote my first Python program to help process student results.",
@@ -67,7 +66,7 @@ factBtn.addEventListener("click", function () {
   factBtn.textContent = "Show another fact";
 });
 
-// ===== 5. Generate project cards from data =====
+
 const projects = [
   {
     title: "Student Result Processor",
@@ -167,7 +166,7 @@ form.addEventListener("submit", function (event) {
   }
 });
 
-// Clear an error as soon as the person starts fixing it
+
 ["name", "email", "message"].forEach(function (id) {
   document.getElementById(id).addEventListener("input", function () {
     clearError(id);
