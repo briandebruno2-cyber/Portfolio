@@ -2,8 +2,7 @@
 
 My personal portfolio website, built with plain HTML and CSS and hosted on GitHub Pages.
 
-🌐 **Live site:** [briandebruno2-cyber.github.io/Portfolio](https://briandebruno2-cyber.github.io/Portfolio/)
-
+🌐 **Live site:** https://briandebruno2-cyber.github.io/Portfolio/
 ## 📖 About
 
 This site introduces me, my skills, and the projects I'm working on. I'm a 2nd-year Bachelor of Science in Information Technology student at Africa International University (SCET), and I built this site to practice web development and showcase my work.
