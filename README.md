@@ -13,7 +13,6 @@ This site introduces me, my skills, and the projects I'm working on. I'm a 2nd-y
 - Hero section with quick links to projects and contact
 - About, Skills, Projects and Contact sections
 - Responsive layout that works on phones, tablets and desktops
-- Sky blue theme with a navy and teal color scheme
 
 ## 🛠 Built With
 
